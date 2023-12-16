@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F0F2F5;
+    height: 100vh;
+}
+
+img{
+    width: 330px;
+    height: 106px;
+}
+
+form{
+    margin-right: 50px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.container-sec{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+    .container-logotext{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        margin-bottom: 60px;
+    }
+        .texto-facebook{
+            font-size: 30px;
+            margin-left: 30px;
+            margin-bottom: 40px;
+        }
+
+    .container-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 435px;
+        height: 388px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.10);
+        margin-bottom: 37px;
+        margin-top: 30px;
+        margin-right: 8px;
+    }
+
+.container-logotext-form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.texto-form{
+    margin-top: 20px;
+}
+.container-footer{
+    background-color: #fff;
+    height: 30%;
+    width: 100%;
+}
+.container-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.input{
+    margin-bottom: 12px;
+    width: 93%;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    padding: 14px 16px;
+    font-size: 18px;
+}
+.botao{
+    background-color: #1877F2;
+    color: #fff;
+    width: 93%;
+    height: 55px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 20px;
+}
+.botao2{
+    background-color: #42B72A;
+    color: #fff;
+    width: 42%;
+    height: 53px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 20px;
+}
+.botao2:hover{
+    background-color: #36A420;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+.forgotpass{
+    color: #1877F2;
+    margin-bottom: 20px;
+}
+.hr-form{
+    margin-bottom: 28px;
+    border: 1px solid #DADDE1;
+    width: 93%;
+}
+.create:hover{
+    text-decoration: underline;
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.div-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    margin-right: 380px;
+    gap: 12px;
+    height: 25px;
+    width: 52%;
+    align-items: center;
+}
+.links{
+    color: #8A8D9E;
+    font-size: 13px;
+}
+.btn-more{
+    width: 35px;
+    height: 25px;
+    border: none;
+    border: 1px solid #DADDE1;
+    border-radius: 2px;
+    font-size: 20px;
+}
+.btn-more{
+    cursor: pointer;
+}
+.hr-footer{
+    width: 52%;
+    margin-top: 10px;
+    border: 1px solid #DADDE1;
+}
+.div-links2{
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 40px;
+    color: #8A8D9E;
+    font-size: 13px;
+    height: 120px;
+
+}
+.div-links2 a {
+    padding: 10px 10px
+}
